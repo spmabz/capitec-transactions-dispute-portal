@@ -19,6 +19,13 @@ I chose **Transactions Dispute Portal** because it is closest to the Capitec dom
 - Tooling: TypeScript, Vitest, tsup
 - Packaging: multi-stage Docker build
 
+## Production architecture
+
+The application is packaged for container deployment. See the
+[AWS production architecture](docs/aws-architecture.md) for the proposed ECS,
+RDS, security, observability, and delivery design, including where Lambda is
+appropriate for future asynchronous processing.
+
 ## Features
 
 - Demo sign-in with server-issued, expiring sessions
